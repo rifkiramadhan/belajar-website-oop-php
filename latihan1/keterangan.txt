@@ -1,0 +1,22 @@
+---- Keterangan Latihan 1 ----
+
+1. Pengertian
+   - Class & Object
+     - Ini adalah konsep yang paling penting untuk kita pelajari ketika mau memulai belajar mengenai Object oriented
+       programming
+     - Class adalah template atau blueprint yang nantinya untuk membuat sebuah object
+     - Object adalah implementasi atau instance dari rancangan kelas tadi
+   - Class
+     - Blueprint / Template untuk membuat instance dari object
+     - Class mendefinisikan object
+     - Menyimpan data dan perilaku yang disebut dengan property dan method
+     - Membuat Class
+       - Diawali dengan menuliskan keyword class, diikuti nama dan dibatasi dengan {} untuk menyimpan property dan method
+       - Aturan penamaan class sama seperti variable
+   - Object
+     - Instance yang didefinisikan oleh Class
+       - Jadi bentuk nyatanya adalah object
+     - Banyak object dapat dibuat dengan menggunakan satu class
+       - Kita dapat membuat banyak object hanya dengan menggunakan satu class
+     - Object dibuat dengan menggunakan keyword new
+       - Untuk membuat satu instance dari class kita menggunakan keyword new
