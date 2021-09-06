@@ -1,0 +1,20 @@
+---- Keterangan Latihan 2 ----
+
+1. Pengertian
+   - Property
+     - Merepresentasikan data / keadaan dari sebuah object
+     - Variabel yang ada di dalam object (member variable)
+       - Jadi kita bisa membuat variable tapi ada di dalam kelas itu disebut bukan variable lagi tapi property
+     - Sama seperti variable di dalam PHP, ditambah dengan visibility di depannya
+    
+   - Method
+     - Merepresentasikan perilaku dari sebuah object
+     - Function yang ada di dalam object
+     - Sama seperti Function di dalam PHP, ditambah dengan visibility di depannya
+
+2. Ringkasan
+   - Jika tujuannya ingin menimpa property maka penamaannya harus sama, tidak boleh salah, karena jika salah satu
+     tidak error, tapi yang terjadi adalah menambah property baru
+   - Kedepannya visibility itu penting, supaya tidak dapat sembarangan menambah dan mengubah property yang ada
+   - Untuk mengambil isi dari property yang ada di dalam class yang bersangkutan maka harus menambahkan keyword $this->, 
+     maka nanti target property yang dibuat akan mengacu ke property yang ada di dalam class
