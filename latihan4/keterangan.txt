@@ -1,0 +1,6 @@
+---- Keterangan Latihan 4 ----
+
+1. Pengertian
+   - Object Type
+     - Object type yang digunakan sebagai parameter ketika memanggil sebuah object
+     - Kita bisa membuat object sebagai Type data sendiri

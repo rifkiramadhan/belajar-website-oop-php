@@ -1,0 +1,16 @@
+---- Keterangan Latihan 3 ----
+
+1. Pengertian
+   - Constructor Method
+     - Adalah method yang automatice dipanggil ketika sebuah class itu dibuat objectnya atau dibuat instance nya
+   - Constructor
+     - Merupakan sebuah method yang spesial atau method yang khusus yang ada di dalam sebuah class, kenapa disebut
+       spesial ?, karena Constructor ini Adalah method yang automatice dijalankan ketika sebuah class kita instansiasi
+       atau kita buat objectnya, jadi ketika kita membuat sebuah object menggunakan keyword new, maka secara automatice
+       pula ada sebuah method yang dijalankan nah itu yang disebut dengan Constructor method
+     - Kenapa menggunakan __ pada construct ?, ini karena construct merupakan bagian dari magic method atau method-method
+       spesial yang dimiliki oleh PHP
+     - Karena dia method maka $judul itu berbeda dengan $judul yang ada di dalam class, karena $judul didalam method Adalah
+       variable local, sedangkan $judul yang berada didalam class adalah property dari class
+     - Constructor method adalah metode khusus yang akan di jalankan secara automatice setiap kita membuat instance
+       dari sebuah class

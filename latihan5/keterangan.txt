@@ -1,0 +1,16 @@
+---- Keterangan Latihan 5 ----
+
+1. Pengertian
+   - Inheritance (Pewarisan)
+     - Merupakan konsep yang ada di dalam OOP yang menciptakan hierarki antar kelas (Parent & Child)
+       - Ketika membuat program menggunakan Inheritance dalam PHP pasti memiliki banyak class dan Inheritance
+         memungkinkan kita untuk menghubungkan class-class tadi menggunakan hierarki yang nantinya ketika dua
+         class atau lebih kita hubungkan menggunakan konsep Inheritance pasti juga ada konsep yang namanya
+         parent class dan Child class
+     - Child Class, Mewarisi semua properti dan method dari parent-nya (yang visible)
+       - Mewarisi itu artinya Child class itu bisa menggunakan semua properti dan method punya parent nya tetapi
+         ada syaratnya yaitu yang visible
+     - Child Class, Memperluas (extends) fungsionalitas dari parent-nya 
+     - Jika kita memanggil sebuah method untuk class Child maka yang pertama dilakukan adalah dia mencari terlebih
+       dahulu, di dalam class nya ada method tersebut atau tidak, jika tidak ada automatice dia akan mencari di
+       parentnya ada atau tidak, jika ada maka method (constructor) itu yang dijalankan

@@ -56,7 +56,7 @@
     - Java, Ruby, Phthon, C++, Javascript, PHP5+
       - Ini merupakan beberapa bahasa pemrograman yang menggunakan paradigma object oriented
 
-### Kelebihan Objecct Oriented Programming
+### Kelebihan Object Oriented Programming
     - Representasi dunia nyata
       - Dengan menggunakan paradigma object oriented kita akan lebih mudah untuk merepresentasikan sesuatu yang ada di
         dunia nyata yang nantinya akan menjadi kebutuhan dari program, misalnya ingin mendefinisikan user nanti kita akan
