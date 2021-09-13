@@ -1,0 +1,21 @@
+---- Keterangan Latihan 14 ----
+
+1. Pengertian
+   - Namespace
+     - Sebuah cara untuk mengelompokkan program ke dalam sebuah package tersendiri
+       - Teknik ini disebut sebagai Encapsulation
+   - Kenapa Program Ini Harus Dikelompokkan ?
+     - PHP tidak mengijinkan kita untuk memiliki 2 Class dengan nama yang sama
+     - Tidak masalah jika bekerja sendiri
+     - Bagaimana dengan team ?
+       - Artinya kita harus mengetahui terlebih dahulu bahwa teman-teman kita yang satu team itu, jika membuat nama
+         class namanya apa, sehingga jika kita menggunakan class maka namanya tidak sama dengan class yang telah dibuat
+         oleh teman-teman kita
+     - Bagaimana dengan team yang besar dan semakin banyak class yang dibuat ?
+       - Berarti semakin banyak juga nama kelas yang sama yang tidak boleh kita pakai kembali
+     - Bagaimana jika kita menggunakan script / library dari pihak ketiga ?
+       - Berarti kita harus mengetahui terlebih dahulu nama class nya apa sehingga kita tidak membuat nama class yang sama
+     - Cara agar penamaan class tidak sama dalam team
+       - Kita membutuhkan teknik Namespace supaya nanti ketika membuat sebuah class dengan nama yang sama maka programnya
+         secara keseluruhan masih bisa mengidentifikasi kalau class ini adalah beda dengan yang lain, jadi nanti programnya
+         bisa membedakan

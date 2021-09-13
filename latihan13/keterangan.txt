@@ -1,0 +1,15 @@
+---- Keterangan Latihan 13 ----
+
+1. Pengertian
+   - Autoloading
+     - Memanggil Class (file) tanpa harus menggunakan require
+       - Jadi secara automatice memanggil file nya, karena nantinya pada saat kita membuat sebuah aplikasi
+         menggunakan konsep OOP itu biasanya 1 kelas ditulis ke dalam 1 file
+     - Kenapa dengan menggunakan require / include / require once itu sama saja ?
+       - Sebetulnya dengan menggunakan fungsi-fungsi tersebut manfaatnya sama untuk memanggil fungsi file yang terpisah,
+         maka menggunakan fungsi tersebut tidak bermasalah kalau apalikasi yang dibuat masih sederhana lalu kita hanya bekerja
+         sendiri, tapi disaat kita kedepannya bekerja kolaborasi dalam team untuk membuat sebuah aplikasi yang besar, ketika
+         hanya menggunakan require saja itu akan cukup merepotkan
+     - spl_autoload_register();
+       - SPL (Standard PHP Library)
+       - Berfungsi untuk membuat function khusus membungkus Autoloading
