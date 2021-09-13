@@ -1,0 +1,22 @@
+---- Keterangan Latihan 9 ----
+
+1. Pengertian
+   - Static Keyword
+     - Kita bisa menggunakan static property dan static method supaya kita dapat mengakses pada konteks Class
+   - Untuk Apa Static Keyword ?
+     - Member yang terikat dengan class, bukan dengan object
+       - Seluruh member-member yaitu property dan method itu terikat dengan class, bukan dengan object
+       - Jadi ketika ingin mengakses proerty dan method langsung dalam kontks class maka gunakanlah static
+     - Nilai static akan selalu tetap meskipun object di instansiasi berulang kali
+     - Membuat kode menjadi procedural
+       - Dengan menggunakan static membuat kode kita seolah-olah menjadi prosedural, karena kita bisa langsung memanggil property dan method
+         melalui class nya tanpa instansiasi
+     - Biasanya digunakan untuk membuat fungsi bantuan / helper 
+     - Atau digunakan di class-class utility pada Framework
+       - Di dalam framework juga digunakan Keyword static
+   - Class
+     - Merupakan template dari object
+     - Jadi ketika kita membuat sebuah object atau istilahnya menginstansiasi, di situlah kita bisa menggunakan property dan method yang ada di dalam Class, tapi
+       sebetulnya kita bisa mengakses property dan method dalam konteks Class
+   - Self::
+     - Untuk mengambil property angka dalam class ContohStatic

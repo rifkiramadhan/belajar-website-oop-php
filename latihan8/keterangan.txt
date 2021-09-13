@@ -1,0 +1,13 @@
+---- Keterangan Latihan 8 ----
+
+1. Pengertian
+   - Setter & Getter (Accessor Method)
+     - Kita menggunakan setter & getter ini untuk menghindari ketika kita membuat sebuah property dengan visibility public, karena sebaiknya kita
+       tidak membiarkan bagian dari luar class kita bisa mengakses property secara langsung, maka untuk itu kita harus merubah visibility nya menjadi
+       protected atau private, tergantung dari desain kita
+     - Setelah kita mengubah visibility nya menjadi protected atau private, artinya kita tidak lagi memiliki akses secara langsung jika kita ingin mendapatkan
+       isi dari sebuah property atau bahkan menset nilai baru ke sebuah property, untuk itulah kita membutuhkan sebuah method utuk bisa membaca atau melihat
+       isi dari property ataupun mengubah isinya, dan method itu nantinya akan disebut sebagai setter & getter atau method untum ngeset dan untuk nge get
+     - Menggunakan setter & getter memungkinkan kita untuk melakukan validasi
+     - Setter & getter di dalam PHP itu sebenarnya bisa dilakukan dengan menggunakan __set() & __get() Magic method, tapi Magic method ini mungkin akan lebih jelas
+       pada saat kita menggunakan overloading, dimana kita membuat function yang sama tetapi dengan menggunakan parameter yang berbeda

@@ -1,0 +1,23 @@
+---- Keterangan Latihan 7 ----
+
+1. Pengertian
+   - Visibility (Access Modifier)
+     - Konsep yang digunakan untuk mengatur akses dari property dan method pada sebuah class atau object
+     - Ada 3 keyword Visibility : 
+       - public
+         - Dapat digunakan di mana saja, bahkan di luar kelas
+         - Artinya property dan methodnya dapat digunakan atau di akses di mana saja, bahkan di luar kelas itu sendiri 
+       - protected
+         - Hanya dapat digunakan di dalam sebuah kelas beserta turunannya
+         - Artinya property dan methodnya hanya bisa digunakan di dalam sebuah class beserta turunannya
+       - private
+         - Hanya dapat digunakan di dalam sebuah class tertentu saja
+         - Artinya ini yang paling tertutup, karena property dan methodnya hanya dapat digunakan di dalam sebuah class tertentu saja
+   - Kenapa Harus Menerapkan Akses Modifier atau Visibility ?
+     - Hanya memperlihatkan aspek dari class yang dibutuhkan oleh client
+       - Artinya ketika bekerja dalam kolaborasi lalu tidak ingin mengizinkan bagian lain dari programnya itu mengakses class yang di buat
+         maka dibutuhkan Visibility
+     - Menentukan kebutuhan yang jelas untuk object
+       - Artinya object mana yang hanya menggunakan property dan method yang mana saja sesuai kebutuhannya
+     - Memberikan kendali pada kode untuk menghindari bug
+       - Ini adalah alasan kita kenapa membutuhkan akses Modifier

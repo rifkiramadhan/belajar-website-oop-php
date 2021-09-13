@@ -1,0 +1,32 @@
+---- Keterangan Latihan 11 ----
+
+1. Pengertian
+   - Abstract Class (Konsep Class Abstract)
+     - Merupakan salah satu konsep yang agak sulit untuk di pahami, dan sangat erat kaitannya dengan inheritance (pewarisan)
+     - Sebuah kelas yang tidak dapat di instansiasi
+       - Artinya kita tidak dapat membuat object dari class abstract ini, dan hanya bisa menginstansiasi class turunannya
+     - Kelas abstract
+       - Karena tidak dapat di instansiasi, yang nanti akan menjadi class sesungguhnya adalah class-class turunannya
+     - Mendefinisikan interface untuk kelas lain yang menjadi turunannya
+     - Berperan sebagai kerangka dasar untuk kelas turunannya
+       - Jadi nanti kelas-kelas turunannya itu akan bekerja sesuai dengan kerangka atau interface yang sudah kita buat
+         di kelas abstract ini
+     - Memiliki minimal 1 method abstrak
+       - Method ini yang dapat dianggap sebagai interface atau kerangka dari method yang akan kita buat pada kelas-kelas turunannya
+     - Digunakan dalam pewarisan / inheritance untuk memaksakan implementasi method abstract yang sama untuk semua kelas turunannya
+       - Jadi di dalam kelas abstract terdapat method abstract yang hanya interface nya saja / namanya saja tidak ada isinya, dan isinya
+         nanti kita tuliskan di kelas-kelas turunannya dengan menggunakan method yang namanya sama
+   - Kenapa Menggunakan Kelas Abstract ?
+     - Merepresentasikan ide atau konsep dasar
+       - Penggunaan kelas-kelas abstract ini bukan masalah benar dan salah, tapi ini adalah keputusan desain, keputusan perancangan dari kelas
+         jika ingin menggunakan konsep OOP maka sebaiknya menggunakan konsep kelas abstract
+     - Composition over inheritance
+       - Jadi sebaiknya kita melakukan komposisi di banding kita melakukan inheritance atau pewarisan begitu saja
+       - Dengan mengguakan komposisi disini maksudnya kita menggunakan abstraksi atau interface, dengan menggunakan komposisi ini, ini Merupakan
+         salah satu cara yang nantinya ketika menerapkan konsep object oriented yang namanya Polymorpyshm, ini adalah saah satu cara yang lebih komplex lagi
+     - Salah satu cara menerapkan Polymorpyshm
+       - Untuk sampai pada konsep ini maka terlebih dahulu harus memahami abstract dan interface
+     - Sentralisasi Logic
+     - Mempermudah pengerjaan tim
+     - Dengan membuat konsep abstraksi ini maka kita sudah mencoba membuat konsep OOP nya selangkah lebih baik lagi
+    

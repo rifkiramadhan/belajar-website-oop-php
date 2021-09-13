@@ -1,0 +1,12 @@
+---- Keterangan Latihan 6 ----
+
+1. Pengertian
+   - Overriding
+     - Adalah sebuah istilah dimana kita bisa membuat method di kelas child yang memiliki nama yang sama dengan class parent nya, atau istilahnya Overriding
+       ini mengambil alih atau menimpa
+     - Jadi method yang kita buat menimpa method punya nya parent class, kenapa kita melakukan ini ?, karena kita memang akan melakukan functionalitas yang sama
+       tapi dengan beberapa keadaan yang berbeda
+   - $this
+     - Adalah instance yang bersangkutan
+   - ::
+     - Adalah method static

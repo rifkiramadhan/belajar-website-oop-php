@@ -1,0 +1,13 @@
+---- Keterangan Latihan 12 ----
+
+1. Pengertian
+   - Interface
+     - Kelas abstrak yang sama sekali tidak memiliki implementasi
+       - Jadi kelas Interface maka semuanya harus definisinya saja
+     - Murni merupakan template untuk kelas turunannya
+     - Tidak boleh memiliki property, hanya deklarasi method saja
+     - Semua method harus dideklarasikan dengan visibility public
+     - Boleh mendeklarasikan __construct() di dalam Interface
+       - Untuk mewajibkan kelas turunannya memiliki method __construct juga
+     - Satu kelas boleh mengimplementasikan banyak Interface
+       - Jadi boleh memiliki banyak Interface yang di implementasikan ke sebuah kelas

@@ -1,0 +1,30 @@
+---- Keterangan Latihan 10 ----
+
+1. Pengertian
+   - Constant (Constanta)
+     - Adalah sebuah identifier untuk menyimpan nilai, yang nilainya tidak dapat diubah
+   - Cara Membuat Constanta
+     - define()
+       - Dengan mengguakan keywrod define ini kita tidak dapat menyimpannya kedalam sebuah class, jadi keywrod define ini 
+         hanya bisa disimpan dluar sebagai constanta global
+     - const
+       - Dengan mengguakan keyword const ini bisa kita masukkan kedalam sebuah class, sehingga bisa kita gunakan di dalam konsep OOP
+     - Ketika membuat constanta maka tulislah nama constanta nya dengan huruf besar semua, agar dapat membedakan yang mana
+       constanta dan yang mana variable biasa
+   - Magic Constant
+     - Artinya sudah terdapat constanta yang dibuatkan oleh PHP, ada banyak yang dapat digunakan, yang automatice ada isinya dan isinya tidak
+       dapat diubah, yaitu
+       - __LINE__
+         - Dengan menuliskan ini akan menampilkan baris dimana constanta ini di tulis
+       - __FILE__
+         - Dengan menuliskan ini akan menampilkan alamat dari file yang bersangkutan
+       - __DIR__
+         - Dengan menuliskan ini akan menampilkan alamat directory dari file yang bersangkutan
+       - __FUNCTION__
+         - Dengan menuliskan ini untuk menentukan sedang berada di function apa
+       - __CLASS__
+        - Dengan menuliskan ini untuk menentukan sedang berada di class apa
+       - __TRAIT__
+         - Dengan menuliskan ini untuk menentukan sedang berada di function apa
+       - __METHOD__
+       - __NAMESPACE__
